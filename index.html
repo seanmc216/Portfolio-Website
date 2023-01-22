@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<!--Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
+    <title>Sean Croney | Website Developer</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+</head>
+
+<!--Body-->
+
+<body class="Background">
+
+    <!--Navbar-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <!--Breaks inserted to add space between navbar and the first heading-->
+    <br>
+    <br>
+
+    <!--Background video-->
+    <div id="Home">
+        <video autoplay muted loop id="Typing_Video">
+            <source src="images/video/Manchester.mp4" type="video/mp4">
+            <!--Display message if video fails to run-->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <!--Video text-->
+    <div class="Video_Text">
+        <h1 class="white-text">Sean's Portfolio</h1>
+        <strong>
+            <p class="center">
+                <q>Programming isn't about what you know;
+                    <br>it's about what you can figure out.
+                </q>
+                <br> - Chris Pine
+                <br>
+                <br> My name is Sean Croney. As a flight planner for easyJet currently, I construct valid flight plans
+                in the cases where the automation has failed, validating flight plan routes against a database which
+                changes on a monthly
+                basis.
+                <br>
+                <br><q>To improve is to change; to be perfect is to change often.</q>
+            </p>
+        </strong>
+    </div>
+
+    <!--About section-->
+    <div class="Row" id="About">
+        <!--Left column-->
+        <div class="Column_2">
+            <img src="images/Manchestersunset.jpg" alt="Cityscape at sunset.">
+        </div>
+        <!--Right column-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                I am a website developer who has been learning to code! I aspire to help
+                clients achieve their success. Through attaining more knowledge of web development I also want to
+                pursue a greater number of fun
+                projects outside of work like earning a Flight Instructor certificate!<br>
+                I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech
+                    Academy</a>’s Website Developer Diploma, and trained and experienced in the following web and
+                programming languages: HTML, CSS, and JavaScript.
+                <br>
+                <br>I am a front-end developer and would love to work with you on your project. <a
+                    href="#Contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+
+    <!--GitHub section-->
+    <div class="Row" id="GitHub">
+        <!--Left column-->
+        <div class="Column_1">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profile here:
+                <br>
+            <p class="center"><a href="https://github.com/seanmc216" target="_blank">Sean Croney Github</a>
+            </p>
+            </p>
+            <h2>PROJECTS</h2>
+            <ul style="list-style-type: none;">
+
+
+                <li class="center"><a href="https://seanmc216.github.io/Project/" target="_blank">The Space
+                        Station</a>
+                </li>
+                <li class="center"><a href="https://seanmc216.github.io/bootstrap4_project/" target="_blank">Academy
+                        Cinemas</a>
+                </li>
+                <li class="center"><a href="https://seanmc216.github.io/Furniture-Website/" target="_blank">Furniture
+                        Website</a>
+                </li>
+                <li class="center"><a href="https://seanmc216.github.io/Rock-Nation/" target="_blank">Rock Nation</a>
+                </li>
+                <li class="center"><a href="https://seanmc216.github.io/Travel-California/" target="_blank">Travel
+                        California</a></li>
+            </ul>
+        </div>
+        <!--Right column-->
+        <div class="Column_2">
+            <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png"
+                    alt="GitHub Logo"></a>
+        </div>
+    </div>
+
+    <!--Contact section-->
+    <div class="Row" id="Contact">
+        <!--Contact image, left column-->
+        <div class="Column_2 Column_tall">
+            <img src="images/Manchesterstreet.jpg" alt="Contact_Image">
+        </div>
+        <!--Contact form, right column-->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+            <!--This specifies where and how to send the form data; we are leaving it blank-->
+            <form action="" method="POST">
+                <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <label>Name:</label>
+                <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!--Footer section-->
+    <footer>
+        <p>
+        <p class="center">&copy Sean Croney, <a href="https://www.learncodinganywhere.com/" target="_blank">Sean's
+                Portfolio</a></p>
+        <br>
+        </p>
+    </footer>
+</body>
+
+</html>
