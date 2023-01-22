@@ -2,7 +2,7 @@
 Sean Croney's Portfolio. This is a display of sample websites that I made using HTML and CSS. 
 ## Description
 
-Hello and welcome to my portfolio. The URL is https://seanmc216.github.io/Module-1-Challenge-/: A screenshot of the finished site: (https://user-images.githubusercontent.com/103222228/207405914-f791af49-ae7a-41be-976f-d3a3051c766d.png)
+Hello and welcome to my portfolio. The URL is https://seanmc216.github.io/Module-1-Challenge-/: A screenshot of the finished site: ![Sean-Croney-Website-Developer](https://user-images.githubusercontent.com/103222228/213901021-07e67bba-cfae-4752-8b49-d571cb6ff8ef.png)
 
 ## Projects
 
